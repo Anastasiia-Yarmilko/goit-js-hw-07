@@ -1,0 +1,29 @@
+  #categories, .images-list{
+    list-style: none;  
+  }
+
+  .images-list{
+    list-style: none;  
+  }
+  
+.gallery-img {
+    width: 400px;
+
+}
+
+.gallery-item {
+    margin-bottom: 10px;
+}
+
+#ingredients {
+    margin-left: 20px;
+}
+
+#counter {
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+
+#value {
+  font-weight: bold;
+}
