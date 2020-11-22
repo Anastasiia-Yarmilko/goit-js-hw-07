@@ -19,8 +19,9 @@
     margin-left: 20px;
 }
 
-#counter, #name-input, .greeting {
+#counter, #name-input, .greeting, #validation-input, #font-size-control, #text {
   margin-left: 40px;
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 
@@ -28,4 +29,14 @@
   font-weight: bold;
 }
 
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
 
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
