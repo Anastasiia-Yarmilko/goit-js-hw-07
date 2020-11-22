@@ -1,7 +1,12 @@
 const sizeControl = document.querySelector ('#font-size-control');
 const text = document.querySelector ('#text');
 
+const setTextSize = function () {
+    text.style.fontSize = `${sizeControl.valueAsNumber}px`;
+  };
 
+
+sizeControl.addEventListener('input', setTextSize);
 
 
 
